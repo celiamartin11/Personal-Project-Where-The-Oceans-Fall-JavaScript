@@ -1,5 +1,8 @@
 @import "./core/reset";
 @import "./layout/header";
 @import "./layout/carrusel";
+@import "./layout/music";
 
-
+body{
+    overflow-x: hidden;
+}

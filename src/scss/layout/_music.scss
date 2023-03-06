@@ -1,0 +1,58 @@
+.music{
+    background-color: pink;
+    padding: 2%;
+    height: 26vh;
+    width: 100vw;
+    @media all and (min-width: 768px){
+        height: 25vh;
+    }
+    @media all and (min-width: 1280px){
+        height: 44vh;
+    }
+}
+
+.title-container{
+    margin-left: 5%;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    @media all and (min-width: 768px){
+        font-size: 25px;
+    }
+    @media all and (min-width: 1280px){
+        font-size: 45px;
+    }
+}
+
+.cd-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+    width: 100vw;
+    margin-top: 3%;
+    @media all and (min-width: 768px){
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    @media all and (min-width: 1280px){
+        width: 98vw;
+        font-size: 45px;
+    }
+}
+
+.cd{
+    cursor: pointer;
+    width: 30vw;
+    @media all and (min-width: 1280px){
+        width: 20vw;
+    }
+}
+
+.cd:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
