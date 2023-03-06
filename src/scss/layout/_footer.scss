@@ -1,0 +1,83 @@
+footer{
+    background-color: black;
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media all and (min-width: 768px){
+        height: 4vh;
+        width: 100vw;
+    }
+    @media all and (min-width: 1280px){
+        height: 6vh;
+        width: 100vw;
+    }
+}
+
+.copy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 9px;
+    margin-left: 15%;
+    width: 26vw;
+    color: white;
+    @media all and (min-width: 768px){
+        font-size: 15px;
+    }
+    @media all and (min-width: 1280px){
+        font-size: 14px;
+        width: 9vw;
+        margin-left: 20%;
+    }
+}
+
+.links{
+    margin-right: 4%;
+    @media all and (min-width: 768px){
+        margin-right: 4%;
+    }
+    @media all and (min-width: 1280px){
+        margin-right: 2%;
+    }
+}
+
+.fa-brands{
+    padding: 5px;
+    @media all and (min-width: 768px){
+        padding: 5px;
+    }
+    @media all and (min-width: 1280px){
+        padding: 8px;
+    }
+}
+
+.link-youtube, .link-spotify, .link-instagram, .link-twitter, .link-facebook{
+    font-size: 14px;
+    color: white;
+    @media all and (min-width: 768px){
+        font-size: 20px;
+    }
+    @media all and (min-width: 1280px){
+        font-size: 22px;
+    }
+}
+
+.link-youtube:hover{
+    color: #fd0000ed;
+}
+
+.link-spotify:hover{
+    color: #1ad763;
+}
+
+.link-instagram:hover{
+    color: #ca378b;
+}
+
+.link-twitter:hover{
+    color: #1d9bee;
+}
+
+.link-facebook:hover{
+    color: #055a93;
+}
