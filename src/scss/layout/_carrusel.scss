@@ -1,0 +1,145 @@
+main{
+    color:white;
+}
+  
+label{
+    cursor: pointer;
+}
+
+.carrusel{
+    height: 42vh;
+    width: 100vw;
+    @media all and (min-width: 768px){
+        height: 45vh;
+    }
+    @media all and (min-width: 1280px){
+        height: 89vh;
+    }
+}
+
+.carrusel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrusel-container input{
+    display: none;
+}
+
+.Carrusels{
+    height: 39vh;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+    @media all and (min-width: 768px){
+        height: 45vh;
+    }
+    @media all and (min-width: 1280px){
+        height: 89vh;
+    }
+}
+
+.Carrusel{
+    height: 100%;
+    width: 101%;
+    position: absolute;
+    background-size: cover;
+    overflow-y: hidden;
+    transition: all .5s ease;
+}
+
+.Carrusels .Carrusel:nth-child(1) {
+    background-image: url(https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/311266971_528451969286347_929808513166442009_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=4k2OLnursSIAX8mou8T&_nc_ht=scontent-mad2-1.xx&oh=00_AfAask8QcAlejomFPjz8w0NjU5hU36rfQ5Xb2wpJKj-dYQ&oe=6402F207);
+    background-size: contain;  
+    background-repeat: no-repeat; 
+}
+
+.Carrusels .Carrusel:nth-child(2) {
+    background-image: url(https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/307373597_506042221527322_2285276655131546938_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=25yW1NL6kHgAX93FMin&_nc_oc=AQk62C4cMbWpiBwI1AEuWNx1SHBErEmp5ufej4Sfz8MPN429Y4CAXsLez8eUK62SYpI&_nc_ht=scontent-mad2-1.xx&oh=00_AfAvHkMbtqNepMVAr-mqCeh5Cm7APH0g4Xtd8YH1498yLg&oe=6402D66F);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Carrusels .Carrusel:nth-child(3) {
+    background-image: url(https://scontent-mad2-1.xx.fbcdn.net/v/t1.6435-9/75402249_2548976045217327_5366905693297180672_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=u3W-Y-Eg9IoAX88MlTf&_nc_ht=scontent-mad2-1.xx&oh=00_AfAzyMfE70EPKQbXcxMF_vmgLUsWbC_SYUML3V7v-h_iwQ&oe=6425ACD7);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Slider1:checked ~ .Carrusels .Carrusel:nth-of-type(1) {transform: translate(0%, 0);}
+#Slider1:checked ~ .Carrusels .Carrusel:nth-of-type(2) {transform: translate(100%, 0);}
+#Slider1:checked ~ .Carrusels .Carrusel:nth-of-type(3) {transform: translate(200%, 0);}
+
+#Slider2:checked ~ .Carrusels .Carrusel:nth-of-type(1) {transform: translate(-100%, 0);}
+#Slider2:checked ~ .Carrusels .Carrusel:nth-of-type(2) {transform: translate(0%, 0);}
+#Slider2:checked ~ .Carrusels .Carrusel:nth-of-type(3) {transform: translate(100%, 0);}
+
+#Slider3:checked ~ .Carrusels .Carrusel:nth-of-type(1) {transform: translate(-200%, 0);}
+#Slider3:checked ~ .Carrusels .Carrusel:nth-of-type(2) {transform: translate(-100%, 0);}
+#Slider3:checked ~ .Carrusels .Carrusel:nth-of-type(3) {transform: translate(0%, 0);}
+  
+.Carrusels .ArrowLeft, .Carrusels .ArrowRight{
+    position: absolute;
+    height: 100%;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    user-select: none;
+}
+
+.Carrusels .ArrowLeft{
+    left: 0px;
+    @media all and (min-width: 1280px){
+        left: 22px;   
+    }
+}
+
+.Carrusels .ArrowRight{
+    right: 0px;
+    @media all and (min-width: 1280px){
+        right: 22px;   
+    }
+}
+  
+#Slider1:checked ~ .Carrusels .Arrow1{display: flex;}
+#Slider2:checked ~ .Carrusels .Arrow2{display: flex;}
+#Slider3:checked ~ .Carrusels .Arrow3{display: flex;}
+ 
+.Selectors {
+    width: 22vw;
+    padding: 19px;
+    margin-top: -10%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    @media all and (min-width: 768px){
+        width: 60px;
+        padding: 4px;
+    }
+    @media all and (min-width: 768px){
+        margin-top: -2%;
+    }
+}
+
+.Selectors .Selector {
+  background-color: #FFF;
+  height: 6px;
+  width: 6px;
+  display: block;
+  border-radius: 5px;
+  @media all and (min-width: 768px){
+    height: 8px;
+    width: 8px;
+  }
+}
+
+#Slider1:checked ~ .Selectors .Selector:nth-of-type(1) {background-color: #999999;}
+#Slider2:checked ~ .Selectors .Selector:nth-of-type(2) {background-color: #999999;}
+#Slider3:checked ~ .Selectors .Selector:nth-of-type(3) {background-color: #999999;}
+ 
+
+
+
+

@@ -1,68 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
-
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Where The Oceans Fall</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5609/5609231.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./assets/css/main.css"/>
+  <script src="https://kit.fontawesome.com/a4fbee8be4.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+  <header id="header">
+    <div>
+      <div class="small-container" id="small-container">
+        <a href="./index.html"><img class="logo" src="./assets/images/logo.png" alt="logo"></a>
+        <img class="menu-image" src="./assets/images/menu.png" alt="menú">
+      </div>
+      <nav class="menu-container" id="menu-container">
+        <ul class="option-container">
+          <li class="option"><a class="menu-container" href="#">Home</a></li>
+          <li class="option"><a class="menu-container" href="#">Conócenos</a></li>
+          <li class="option"><a class="menu-container" href="#">Música</a></li>
+          <li class="option"><a class="menu-container" href="#">Videos</a></li>
+          <li class="option"><a class="menu-container" href="#">Fotos</a></li>
+          <li class="option"><a class="menu-container" href="#">Tienda</a></li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
+      </nav>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+  </header>
+  <main>
+    <section class="carrusel">
+      <div class="carrusel-container">
+        <input type="radio" name="Carrusel" id="Slider1" checked>
+        <input type="radio" name="Carrusel" id="Slider2">
+        <input type="radio" name="Carrusel" id="Slider3">
+        <div class="Carrusels">
+          <div class="Carrusel"></div>
+          <div class="Carrusel"></div>
+          <div class="Carrusel"></div>
+          <label class="ArrowLeft Arrow1" for="Slider3">❮</label>
+          <label class="ArrowLeft Arrow2" for="Slider1">❮</label>
+          <label class="ArrowLeft Arrow3" for="Slider2">❮</label>
+          <label class="ArrowRight Arrow1" for="Slider2">❯</label>
+          <label class="ArrowRight Arrow2" for="Slider3">❯</label>
+          <label class="ArrowRight Arrow3" for="Slider1">❯</label>
+        </div>
+        <div class="Selectors">
+          <label class="Selector" for="Slider1"></label>
+          <label class="Selector" for="Slider2"></label>
+          <label class="Selector" for="Slider3"></label>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
 </html>
