@@ -1,16 +1,15 @@
 footer{
     background-color: black;
-    height: 6vh;
+    height: 8vh;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     @media all and (min-width: 768px){
-        height: 4vh;
+        height: 6vh;
         width: 100vw;
     }
     @media all and (min-width: 1280px){
-        height: 6vh;
         width: 100vw;
     }
 }
