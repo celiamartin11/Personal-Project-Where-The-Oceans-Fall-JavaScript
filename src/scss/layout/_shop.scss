@@ -1,0 +1,53 @@
+.shop{
+    background-color: orange;
+    height: 47vh;
+    width: 100vw;
+    @media all and (min-width: 768px){
+        height: 51vh;
+    }
+    @media all and (min-width: 1280px){
+        height: 115vh;
+    }
+}
+
+.shop-container{
+    padding-top: 2%;
+    padding-left: 7%;
+    width: 100vw;
+    height: 5vh;
+    @media all and (min-width: 768px){
+        height: 5vh;
+    }
+    @media all and (min-width: 1280px){
+        height: 8vh;
+    }
+}
+
+.container{
+    width: 102vw;
+    height: 40vh;
+    margin-top: 4%;
+    @media all and (min-width: 768px){
+        height: 45vh;
+        margin-top: 2%;
+    }
+    @media all and (min-width: 1280px){
+        height: 103vh;
+        margin-top: 2.5%;
+    }
+}
+
+.shop-image{
+    cursor: pointer;
+    width: 102vw;
+    height: 40vh;
+    object-fit: contain;
+    @media all and (min-width: 768px){
+        height: 45vh;
+    }
+    @media all and (min-width: 1280px){
+        height: 103vh;
+    }
+}
+
+
