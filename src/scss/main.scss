@@ -1,11 +1,14 @@
 @import "./core/reset";
 @import "./layout/header";
-@import "./layout/carrusel";
-@import "./layout/music";
+@import "./layout/carrusel-landing";
+@import "./layout/music-landing";
+@import "./layout/music_1";
+@import "./layout/music_2";
+@import "./layout/video-landing";
 @import "./layout/video";
-@import "./layout/photo";
-@import "./layout/shop";
-@import "./layout/contact";
+@import "./layout/photo-landing";
+@import "./layout/shop-landing";
+@import "./layout/contact-landing";
 @import "./layout/footer";
 
 body{
