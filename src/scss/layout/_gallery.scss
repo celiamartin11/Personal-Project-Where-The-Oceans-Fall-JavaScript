@@ -1,0 +1,106 @@
+.photo-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+    width: 100vw;
+    height: 104vh;
+    margin-top: 0%;
+    @media all and (min-width: 768px){
+        margin-top: 0%;
+        height: 117vh;
+    }
+    @media all and (min-width: 1280px){
+        gap: 5vh; 
+        margin-top: 0%;  
+        height: 83vh;
+    }
+}
+
+.photo-listing{
+    margin-top: 5%;
+    @media all and (min-width: 768px){
+        margin-top: 5%;
+    }
+    @media all and (min-width: 1280px){
+        margin-top: 2%;  
+    }
+}
+
+.photo-video{
+    cursor: pointer;
+    width: 30vw;
+    @media all and (min-width: 768px){
+        width: 30vw;
+    }
+    @media all and (min-width: 1280px){
+        width: 20vw;
+        height: 30vh;
+        margin-top: 2%;
+        object-fit: cover;
+    }
+}
+
+.date{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: -15.5%;
+    position: absolute;
+    width: 30vw;
+    @media all and (min-width: 768px){
+        font-size: 18px;
+    }
+    @media all and (min-width: 1280px){
+        font-size: 18px;
+        margin-top: -8.5%;
+        width: 20vw;
+    }
+}
+
+
+/*.gallery-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+    width: 100vw;
+    height: 214vh;
+    margin-top: 0%;
+    @media all and (min-width: 768px){
+        margin-top: 0%;
+        gap: 2vw;
+        height: 135vh;
+    }
+    @media all and (min-width: 1280px){
+        gap: 5vh; 
+        margin-top: 0%;  
+        height: 95vh;
+    }
+}
+
+.gallery-listing{
+    margin-top: 5%;
+    @media all and (min-width: 768px){
+        margin-top: 5%;
+    }
+    @media all and (min-width: 1280px){
+        margin-top: 2%;  
+    }
+}
+
+.photo-gallery{
+    cursor: pointer;
+    width: 30vw;
+    @media all and (min-width: 768px){
+        width: 30vw;
+    }
+    @media all and (min-width: 1280px){
+        width: 15vw;
+        height: 24vh;
+        margin-top: 2%;
+        object-fit: cover;
+    }
+}*/
