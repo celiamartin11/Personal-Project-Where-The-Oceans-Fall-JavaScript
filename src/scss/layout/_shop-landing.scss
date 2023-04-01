@@ -6,7 +6,7 @@
         height: 52vh;
     }
     @media all and (min-width: 1280px){
-        height: 115vh;
+        height: 131vh;
     }
 }
 
@@ -19,7 +19,7 @@
         height: 5vh;
     }
     @media all and (min-width: 1280px){
-        height: 8vh;
+        height: 10vh;
     }
 }
 
@@ -41,12 +41,12 @@
     cursor: pointer;
     width: 102vw;
     height: 40vh;
-    object-fit: contain;
+    object-fit: cover;
     @media all and (min-width: 768px){
         height: 46vh;
     }
     @media all and (min-width: 1280px){
-        height: 103vh;
+        height: 117vh;
     }
 }
 

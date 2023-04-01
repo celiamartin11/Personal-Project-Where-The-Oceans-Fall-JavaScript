@@ -12,6 +12,7 @@ header{
 
 .small-container{
   width: 100vw;
+  height: 11vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +28,7 @@ header{
   }
   @media all and (min-width: 1280px){
     width: 7vw;
-    margin: 6px 14px 14px 21px;
+    margin: 17px 14px 14px 21px;
   }
 }
 
