@@ -1,5 +1,69 @@
-.new{
-    background-color: red;
+.attitude-container{
     height: 100vh;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
 }
+
+.attitude{
+    width: 25vw;
+}
+
+.attitude-info{
+    width: 30vw;
+    margin-left: 90px;
+    color: black;
+}
+
+.attitude-title{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.attitude-date{
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.songs-container{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song{
+    color: white;
+}
+
+.number{
+   color: rgb(165, 165, 165); 
+   margin-right: 20px;
+}
+
+.links-container{
+    display: flex;
+    justify-content: end;
+}
+
+.play-youtube{
+    color: white;
+    font-size: 18px;
+}
+
+.play-youtube:hover{
+    color: #fd0000ed;
+}
+
+.play-spotify{
+    color: white;
+    font-size: 18px;
+}
+
+.play-spotify:hover{
+    color: #1ad763;
+}
+

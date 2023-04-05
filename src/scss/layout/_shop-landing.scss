@@ -1,12 +1,12 @@
 .shop{
-    background-color: orange;
+    background-color: black;
     height: 47vh;
     width: 100vw;
     @media all and (min-width: 768px){
         height: 52vh;
     }
     @media all and (min-width: 1280px){
-        height: 131vh;
+        height: 113vh;
     }
 }
 
@@ -24,29 +24,26 @@
 }
 
 .container{
-    width: 102vw;
-    height: 40vh;
-    margin-top: 4%;
+    width: 99vw;
+    margin-top: 2%;
     @media all and (min-width: 768px){
-        height: 46vh;
+        width: 99vw;
         margin-top: 2%;
     }
     @media all and (min-width: 1280px){
-        height: 103vh;
-        margin-top: 2.5%;
+        width: 99vw;
+        margin-top: 2%;
     }
 }
 
 .shop-image{
     cursor: pointer;
-    width: 102vw;
-    height: 40vh;
-    object-fit: cover;
+    width: 99vw;
     @media all and (min-width: 768px){
-        height: 46vh;
+        width: 99vw;
     }
     @media all and (min-width: 1280px){
-        height: 117vh;
+        width: 99vw;
     }
 }
 

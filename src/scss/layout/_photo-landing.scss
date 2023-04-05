@@ -1,19 +1,17 @@
 .photo{
-    background-color: blue;
+    background-image: url(https://cdn.wallpapersafari.com/36/49/R1drnD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2%;
-    height: 95vh;
-    width: 100vw;
-    @media all and (min-width: 768px){
-        height: 100vh;
-        width: 100vw;
-    }
-    @media all and (min-width: 1280px){
-        height: 116vh;
-        width: 100vw;
-    }
 }
 
 .image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-contain{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -37,22 +35,40 @@
 .image{
     cursor: pointer;
     width: 30vw;
+    object-fit: cover;
+    filter: url('#grayscale');
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: Gray();
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     @media all and (min-width: 768px){
         width: 30vw;
     }
     @media all and (min-width: 1280px){
         width: 20vw;
+        height: 32vh;
         margin-top: 2%;
     }
 }
 
 .image:hover{
-    box-shadow: 0 0 20px red;
-}
-
-.photo-container{
-    width: 100vw;
-    text-align: center;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .button-photo{
@@ -61,20 +77,20 @@
     color: white;
     font-size: 11px;
     text-transform: uppercase;
-    margin-top: 22%;
     height: 6vh;
     width: 22vw;
     @media all and (min-width: 768px){
         font-size: 15px;
         height: 4vh;
         width: 12vw;
-        margin-top: 30%;
     }
     @media all and (min-width: 1280px){
         height: 5vh;
         width: 7vw;
-        margin-top: 20.5%;
+        margin-top: 22%;
     }
 }
 
-
+.button-photo:hover{
+    box-shadow: 0 0 40px rgb(146, 14, 14);
+}
