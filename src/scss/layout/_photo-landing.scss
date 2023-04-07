@@ -23,7 +23,8 @@
 
 .image{
     cursor: pointer;
-    width: 60vw;
+    width: 70vw;
+    border: 1px solid white;
     object-fit: cover;
     filter: url('#grayscale');
     -webkit-filter: grayscale(100%);
@@ -58,9 +59,9 @@
     color: white;
     font-size: 10px;
     text-transform: uppercase;
-    width: 30vw;
-    height: 8vh;
-    margin-top: 20px;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
