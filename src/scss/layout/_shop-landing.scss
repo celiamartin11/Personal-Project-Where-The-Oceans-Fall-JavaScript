@@ -3,7 +3,7 @@
     height: 82vh;
     width: 100vw;
     @media all and (min-width: 768px){
-        height: 52vh;
+        height: 75vh;
     }
     @media all and (min-width: 1280px){
         height: 113vh;
@@ -16,7 +16,7 @@
     width: 100vw;
     height: 5vh;
     @media all and (min-width: 768px){
-        height: 5vh;
+        height: 10vh;
     }
     @media all and (min-width: 1280px){
         height: 10vh;
@@ -28,8 +28,8 @@
     height: 65vh;
     margin-top: 10%;
     @media all and (min-width: 768px){
-        width: 99vw;
-        margin-top: 2%;
+        width: 100vw;
+        margin-top: 0%;
     }
     @media all and (min-width: 1280px){
         width: 99vw;
@@ -43,7 +43,7 @@
     height: 65vh;
     object-fit: cover;
     @media all and (min-width: 768px){
-        width: 99vw;
+        width: 100vw;
     }
     @media all and (min-width: 1280px){
         width: 99vw;

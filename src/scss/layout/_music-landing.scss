@@ -14,7 +14,7 @@
     font-size: 20px;
     text-transform: uppercase;
     @media all and (min-width: 768px){
-        font-size: 25px;
+        font-size: 30px;
     }
     @media all and (min-width: 1280px){
         font-size: 45px;
@@ -31,7 +31,8 @@
     margin-bottom: 5%;
     @media all and (min-width: 768px){
         font-size: 25px;
-        margin-top: 2%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
     @media all and (min-width: 1280px){
         width: 98vw;

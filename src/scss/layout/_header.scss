@@ -3,10 +3,10 @@ header{
   height: 8vh;
   width: 100vw;
   @media all and (min-width: 768px){
-    height: 10vh;
+    height: 6vh;
   }
   @media all and (min-width: 1280px){
-    height: 11vh;
+    height: 8vh;
   }
 }
 
@@ -16,6 +16,12 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media all and (min-width: 768px){
+    height: 6vh;
+  }
+  @media all and (min-width: 1280px){
+    height: 8vh;
+  }
 }
 
 .logo{
@@ -23,12 +29,12 @@ header{
   width: 14vw;
   margin: 10px 10px 10px 10px;
   @media all and (min-width: 768px){
-    width: 15vw;
+    width: 10vw;
     margin: 13px 10px 10px 10px;
   }
   @media all and (min-width: 1280px){
-    width: 7vw;
-    margin: 17px 14px 14px 21px;
+    width: 6vw;
+    margin: 13px 10px 10px 10px;
   }
 }
 
@@ -38,11 +44,11 @@ header{
   height: 2vh;
   margin-right: 4%;
   @media all and (min-width: 768px){
-    width: 4.5vw;
-    height: 2.5vh;
+    width: 3.4vw;
+    height: 2.2vh;
   }
   @media all and (min-width: 1280px){
-    width: 1.5vw;
+    width: 1.8vw;
     height: 2.5vh;
   }
 }

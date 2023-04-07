@@ -4,7 +4,8 @@
     width: 100vw;
     padding-top: 5%;
     @media all and (min-width: 768px){
-        height: 56vh;
+        height: 60vh;
+        padding-top: 2%;
     }
     @media all and (min-width: 1280px){
         height: 95vh;
@@ -14,8 +15,7 @@
 .title-contact{
     padding-left: 7%;
     @media all and (min-width: 768px){
-        padding-top: 3%;
-        padding-left: 7%;
+        padding-top: 2%;
     }
     @media all and (min-width: 1280px){
         padding-top: 2%;
@@ -103,18 +103,17 @@
 }
 
 .send-container{
+    width: 70vw;
     display: flex;
-    justify-content: flex-end;  
-    width: 76vw;
+    justify-content: end;
+    margin-top: 10px;
     @media all and (min-width: 768px){
-        display: flex;
-        justify-content: flex-end;  
-        width: 35vw;
+        width: 40vw;
+        margin-top: 15px;
     }
-    @media all and (min-width: 1280px){
-        display: flex;
-        justify-content: flex-end;  
-        width: 31.4vw; 
+    @media all and (min-width: 1280px){ 
+        width: 42vw;
+        margin-top: 10px;
     } 
 }
 
@@ -122,21 +121,14 @@
     background-color: rgb(86, 9, 9);
     border: rgb(86, 9, 9);
     color: white;
-    width: 25vw;
-    padding: 6px 8px 6px 8px;
-    margin: 11px; 
+    padding: 10px 20px 10px 20px;
     font-size: 11px;
     @media all and (min-width: 768px){
-        width: 15vw;
-        padding: 10px;
-        margin: 10px;
-        margin-right: -7%;
-        font-size: 12px;
+        padding: 10px 30px 10px 30px;
+        font-size: 16px;
     }
     @media all and (min-width: 1280px){
-        width: 10vw;
-        padding: 14px;
-        margin: 12px; 
+        padding: 10px 20px 10px 20px;
         font-size: 12px;
     } 
 }
