@@ -2,6 +2,42 @@ header{
   background-color: black;
   height: 8vh;
   width: 100vw;
+}
+
+.small-container{
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  cursor: pointer;
+  width: 16vw;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.menu-image{
+  cursor: pointer;
+  width: 4vw;
+  height: 2vh;
+  margin-right: 14px;
+}
+
+.menu-container{
+  display: none;
+}
+
+.option-container{
+  display: none;
+}
+
+.option{
+  display: none;
+}
+
+/*header{ 
   @media all and (min-width: 768px){
     height: 6vh;
   }
@@ -11,11 +47,6 @@ header{
 }
 
 .small-container{
-  width: 100vw;
-  height: 8vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   @media all and (min-width: 768px){
     height: 6vh;
   }
@@ -25,9 +56,6 @@ header{
 }
 
 .logo{
-  cursor: pointer;
-  width: 14vw;
-  margin: 10px 10px 10px 10px;
   @media all and (min-width: 768px){
     width: 10vw;
     margin: 13px 10px 10px 10px;
@@ -39,10 +67,6 @@ header{
 }
 
 .menu-image{
-  cursor: pointer;
-  width: 4.5vw;
-  height: 2vh;
-  margin-right: 4%;
   @media all and (min-width: 768px){
     width: 3.4vw;
     height: 2.2vh;
@@ -54,28 +78,22 @@ header{
 }
 
 .menu-container{
-  display: none;
   @media all and (min-width: 768px){
     /*display: flex;
     justify-content: flex-end;
     padding: 5px;
     color: black;
     text-decoration: none;
-    text-transform: uppercase;*/
+    text-transform: uppercase;
   }
 }
 
 .option-container{
-  display: none;
   @media all and (min-width: 768px){
-    /*display: flex;
-    margin-right: 40px;*/
   }
 }
 
 .option{
-  display: none;
   @media all and (min-width: 768px){
-    /*display: flex;*/
   }
-}
+}*/

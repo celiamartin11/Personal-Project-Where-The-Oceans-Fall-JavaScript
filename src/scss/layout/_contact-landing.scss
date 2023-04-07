@@ -1,5 +1,84 @@
 .contact{
     background-color: black;
+    padding-top: 10%;
+    height: 120vh;
+}
+
+.title-contact{
+    padding-left: 5%;
+}
+
+.form{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container, .email-container, .message-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    width: 70vw;
+    margin: 5px;
+}
+
+.name{
+    width: 70vw;
+    padding: 3px; 
+    margin-bottom: 10px;  
+}
+
+.email{
+    width: 70vw;
+    padding: 3px;  
+    margin-bottom: 10px;  
+}
+
+.tel{
+    width: 70vw;
+    padding: 3px;  
+    margin-bottom: 10px;  
+}
+
+.send-container{
+    width: 70vw;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.send{
+    background-color: rgb(86, 9, 9);
+    border: rgb(86, 9, 9);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 11px;
+}
+
+.send:hover{
+    box-shadow: 0 0 20px rgb(146, 14, 14);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.contact{
+    background-color: black;
     height: 95vh;
     width: 100vw;
     padding-top: 5%;
@@ -137,3 +216,4 @@
     box-shadow: 0 0 20px rgb(146, 14, 14);
 }
 
+*/
