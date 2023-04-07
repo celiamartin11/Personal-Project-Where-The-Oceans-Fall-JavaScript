@@ -1,7 +1,8 @@
 .contact{
     background-color: black;
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
+    padding-top: 5%;
     @media all and (min-width: 768px){
         height: 56vh;
     }
@@ -11,7 +12,6 @@
 }
 
 .title-contact{
-    padding-top: 3%;
     padding-left: 7%;
     @media all and (min-width: 768px){
         padding-top: 3%;

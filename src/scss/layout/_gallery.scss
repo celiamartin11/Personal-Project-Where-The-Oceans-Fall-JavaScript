@@ -1,14 +1,4 @@
-main{
-    height: 108vh;
-    @media all and (min-width: 768px){
-        height: 121vh;
-    }
-    @media all and (min-width: 1280px){
-        height: 90vh;
-    }
-}
-
-.container{
+.photo-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
