@@ -3,7 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10%;
-    padding-left: 5%;
+    @media all and (min-width: 768px){
+        padding-top: 8%;
+    }
+    @media all and (min-width: 1280px){
+        padding-top: 5%;
+    }
 }
 
 .image-container{
@@ -11,6 +16,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media all and (min-width: 768px){
+        margin-top: 6%;
+    }
+    @media all and (min-width: 1280px){
+        margin-top: 5%;
+    }
 }
 
 .image-contain{
@@ -19,6 +30,12 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
+    @media all and (min-width: 768px){
+        gap: 70px;
+    }
+    @media all and (min-width: 768px){
+        gap: 80px;
+    }
 }
 
 .image{
@@ -38,6 +55,12 @@
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    @media all and (min-width: 768px){
+        width: 60vw;
+    }
+    @media all and (min-width: 1280px){
+        width: 25vw;
+    }
 }
 
 .image:hover{
@@ -63,6 +86,16 @@
     height: 5vh;
     margin-top: 25px;
     margin-bottom: 25px;
+    @media all and (min-width: 768px){
+        font-size: 16px;
+        width: 20vw;
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+    @media all and (min-width: 1280px){
+        width: 10vw;
+        height: 8vh;
+    }
 }
 
 .button-photo:hover{
@@ -83,103 +116,3 @@
 
 
 
-
-/*.photo{
-    background-image: url(https://cdn.wallpapersafari.com/36/49/R1drnD.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2%;
-    padding-top: 5%;
-}
-
-.image-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.image-contain{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 5vw;   
-    width: 100vw;
-    margin-top: 5%;
-    @media all and (min-width: 768px){
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 10vw;   
-        width: 100vw;
-        margin-top: 5%;
-    }
-    @media all and (min-width: 1280px){
-        gap: 7vw;   
-        margin-top: 2%;
-    }
-}
-
-.image{
-    cursor: pointer;
-    width: 40vw;
-    object-fit: cover;
-    filter: url('#grayscale');
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: Gray();
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    @media all and (min-width: 768px){
-        width: 30vw;
-    }
-    @media all and (min-width: 1280px){
-        width: 20vw;
-        height: 32vh;
-        margin-top: 2%;
-    }
-}
-
-.image:hover{
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    filter: none;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.button-photo{
-    background-color: rgb(86, 9, 9);
-    border: rgb(86, 9, 9);
-    color: white;
-    font-size: 11px;
-    text-transform: uppercase;
-    height: 5vh;
-    width: 25vw;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    @media all and (min-width: 768px){
-        font-size: 16px;
-        height: 4vh;
-        width: 14vw;
-    }
-    @media all and (min-width: 1280px){
-        height: 5vh;
-        width: 7vw;
-        margin-top: 22%;
-    }
-}
-
-.button-photo:hover{
-    box-shadow: 0 0 40px rgb(146, 14, 14);
-}*/

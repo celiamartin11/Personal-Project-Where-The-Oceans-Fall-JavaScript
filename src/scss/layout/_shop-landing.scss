@@ -1,6 +1,12 @@
 .shop{
     background-color: black;
     padding-top: 10%;
+    @media all and (min-width: 768px){
+        padding-top: 6%;
+    }
+    @media all and (min-width: 1280px){
+        padding-top: 4%;
+    }
 }
 
 .shop-container{
@@ -10,6 +16,12 @@
 .shop-contain{
     margin-top: 10%;
     width: 100vw;
+    @media all and (min-width: 768px){
+        margin-top: 6%;
+    }
+    @media all and (min-width: 1280px){
+        margin-top: 4%;
+    }
  }
 
 .shop-image{
@@ -17,66 +29,19 @@
     object-fit: cover;
     width: 100vw;
     height: 55vh;
-}
-
-
-
-
-
-
-
-
-
-
-/*.shop{
-    background-color: black;
-    height: 82vh;
-    width: 100vw;
     @media all and (min-width: 768px){
         height: 75vh;
     }
     @media all and (min-width: 1280px){
-        height: 113vh;
+        height: 115vh;
     }
 }
 
-.shop-container{
-    padding-top: 5%;
-    padding-left: 7%;
-    width: 100vw;
-    height: 5vh;
-    @media all and (min-width: 768px){
-        height: 10vh;
-    }
-    @media all and (min-width: 1280px){
-        height: 10vh;
-    }
-}
 
-.container{
-    width: 100vw;
-    height: 65vh;
-    margin-top: 10%;
-    @media all and (min-width: 768px){
-        width: 100vw;
-        margin-top: 0%;
-    }
-    @media all and (min-width: 1280px){
-        width: 99vw;
-        margin-top: 2%;
-    }
-}
 
-.shop-image{
-    cursor: pointer;
-    width: 100vw;
-    height: 65vh;
-    object-fit: cover;
-    @media all and (min-width: 768px){
-        width: 100vw;
-    }
-    @media all and (min-width: 1280px){
-        width: 99vw;
-    }
-}
-*/
+
+
+
+
+
+

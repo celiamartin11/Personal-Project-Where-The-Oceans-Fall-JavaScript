@@ -1,7 +1,15 @@
 .music{
     background-color: black;
     padding-top: 10%;
-    padding-left: 5%;
+    height: 87vh;
+    @media all and (min-width: 768px){
+        padding-top: 8%;
+        height: 47vh;
+    }
+    @media all and (min-width: 1280px){
+        padding-top: 5%;
+        height: 72vh;
+    }
 }
 
 .title{
@@ -9,101 +17,45 @@
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
+    padding-left: 5%;
+    @media all and (min-width: 768px){
+        font-size: 45px;
+    }
+    @media all and (min-width: 1280px){
+        font-size: 55px;
+    }
 }
 
 .cd-container{
-    width: 95vw;
+    width: 100vw;
+    gap: 30px;
     margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media all and (min-width: 768px){
+        margin-top: 8%;
+        gap: 60px;
+    }
+    @media all and (min-width: 1280px){
+        margin-top: 3%;
+        flex-direction: row;
+        gap: 140px;
+    }
 }
 
 .cd{
     cursor: pointer;
     width: 55vw;
-}
-
-.button-music{
-    background-color: rgb(86, 9, 9);
-    border: rgb(86, 9, 9);
-    color: white;
-    font-size: 10px;
-    text-transform: uppercase;
-    width: 25vw;
-    height: 5vh;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.button-music:hover{
-    box-shadow: 0 0 20px rgb(146, 14, 14);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.music{
-    background-color: black;
-    padding: 2%;
-    padding-top: 5%;
-}
-
-.title-container{
-    margin-left: 5%;
-}
-
-.title{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-transform: uppercase;
     @media all and (min-width: 768px){
-        font-size: 30px;
+        width: 40vw;
     }
     @media all and (min-width: 1280px){
-        font-size: 45px;
+        width: 25vw;
     }
 }
 
-.cd-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10vw;
-    width: 98vw;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    @media all and (min-width: 768px){
-        font-size: 25px;
-        margin-top: 4%;
-        margin-bottom: 4%;
-    }
-    @media all and (min-width: 1280px){
-        width: 98vw;
-        font-size: 45px;
-        margin-bottom: 0;
-    }
-}
 
-.cd{
-    cursor: pointer;
-    width: 38vw;
-    @media all and (min-width: 1280px){
-        width: 20vw;
-    }
-}
 
-.cd:hover{
-    box-shadow: 0 0 20px rgb(255, 255, 255);
-}*/
+

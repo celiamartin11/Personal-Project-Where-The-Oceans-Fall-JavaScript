@@ -4,6 +4,13 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media all and (min-width: 768px){
+        height: 12vh;
+        padding-top: 20px;
+    }
+    @media all and (min-width: 1280px){
+        height: 18vh;
+    }
 }
 
 .copy{
@@ -11,11 +18,7 @@ footer{
     font-size: 10px;
     color: white;
     @media all and (min-width: 768px){
-        font-size: 15px;
-    }
-    @media all and (min-width: 1280px){
-        font-size: 14px;
-        width: 13vw;
+        font-size: 16px;
     }
 }
 
@@ -25,22 +28,16 @@ footer{
 
 .fa-brands{
     padding: 5px;
-    @media all and (min-width: 768px){
-        padding: 5px;
-    }
-    @media all and (min-width: 1280px){
-        padding: 8px;
-    }
 }
 
 .link-youtube, .link-spotify, .link-instagram, .link-twitter, .link-facebook{
     font-size: 18px;
     color: white;
     @media all and (min-width: 768px){
-        font-size: 20px;
+        font-size: 25px;
     }
     @media all and (min-width: 1280px){
-        font-size: 22px;
+        margin: 10px;
     }
 }
 

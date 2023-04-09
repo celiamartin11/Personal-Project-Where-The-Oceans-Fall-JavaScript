@@ -2,6 +2,9 @@ header{
   background-color: black;
   height: 8vh;
   width: 100vw;
+  @media all and (min-width: 1280px){
+    height: 10vh;
+  }
 }
 
 .small-container{
@@ -9,6 +12,9 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media all and (min-width: 1280px){
+    height: 10vh;
+  }
 }
 
 .logo{
@@ -16,6 +22,13 @@ header{
   width: 16vw;
   margin-left: 6px;
   margin-top: 2px;
+  @media all and (min-width: 768px){
+    width: 12vw;
+  }
+  @media all and (min-width: 1280px){
+    width: 6vw;
+    margin-left: 20px;
+  }
 }
 
 .menu-image{
@@ -23,6 +36,13 @@ header{
   width: 4vw;
   height: 2vh;
   margin-right: 14px;
+  @media all and (min-width: 768px){
+    height: 2.6vh;
+  }
+  @media all and (min-width: 1280px){
+    width: 1.6vw;
+    margin-right: 45px;
+  }
 }
 
 .menu-container{
@@ -36,64 +56,3 @@ header{
 .option{
   display: none;
 }
-
-/*header{ 
-  @media all and (min-width: 768px){
-    height: 6vh;
-  }
-  @media all and (min-width: 1280px){
-    height: 8vh;
-  }
-}
-
-.small-container{
-  @media all and (min-width: 768px){
-    height: 6vh;
-  }
-  @media all and (min-width: 1280px){
-    height: 8vh;
-  }
-}
-
-.logo{
-  @media all and (min-width: 768px){
-    width: 10vw;
-    margin: 13px 10px 10px 10px;
-  }
-  @media all and (min-width: 1280px){
-    width: 6vw;
-    margin: 13px 10px 10px 10px;
-  }
-}
-
-.menu-image{
-  @media all and (min-width: 768px){
-    width: 3.4vw;
-    height: 2.2vh;
-  }
-  @media all and (min-width: 1280px){
-    width: 1.8vw;
-    height: 2.5vh;
-  }
-}
-
-.menu-container{
-  @media all and (min-width: 768px){
-    /*display: flex;
-    justify-content: flex-end;
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-}
-
-.option-container{
-  @media all and (min-width: 768px){
-  }
-}
-
-.option{
-  @media all and (min-width: 768px){
-  }
-}*/
