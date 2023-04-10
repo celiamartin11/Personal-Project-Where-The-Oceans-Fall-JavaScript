@@ -49,7 +49,7 @@ label{
 }
 
 .Carrusels .Carrusel:nth-child(1) {
-    background-image: url(https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/302488356_5419363794845190_354890915230867275_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vtDMpZ6CN64AX9s-RBe&_nc_ht=scontent-mad2-1.xx&oh=00_AfBzkmZK560gwden5j9mpashWy0XbSx0BZPV6Ol9gkjpRw&oe=6432E688);
+    background-image: url(https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/87562475_2793932887388307_399750997288681472_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Zw44F9U3incAX8u7R8a&_nc_ht=scontent-mad1-1.xx&oh=00_AfA51T1YcytPRonHiKfHMaqmv3iF5fhwxHJSU1cwsEeqew&oe=6454E097);
     background-size: cover;  
     background-repeat: no-repeat; 
 }
@@ -90,10 +90,16 @@ label{
 
 .Carrusels .ArrowLeft{
     left: 0px;
+    @media all and (min-width: 768px){
+        left: 20px;
+    }
 }
 
 .Carrusels .ArrowRight{
     right: 0px;
+    @media all and (min-width: 768px){
+        right: 20px;
+    }
 }
   
 #Slider1:checked ~ .Carrusels .Arrow1{display: flex;}
