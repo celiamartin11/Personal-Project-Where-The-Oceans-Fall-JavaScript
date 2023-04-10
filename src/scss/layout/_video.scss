@@ -1,57 +1,35 @@
 .videos-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 4vw;
-    width: 100vw;
-    height: 54vh;
-    margin-top: 0%;
+    height: 95vh;
+    gap: 35px;
     @media all and (min-width: 768px){
-        gap: 4vw;
-        width: 100vw;
-        height: 60vh;
-        margin-top: 0%;
+        gap: 40px;
+        height: 145vh;
     }
     @media all and (min-width: 1280px){
-        gap: 2vw;
-        width: 100vw;
-        height: 83vh;
-        margin-top: 0%; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        height: 90vh;
     }
 }
 
 .video-listing{
-    height: 20vh;
-    width: 40vw;
     text-align: center;
-    margin-top: 5%;
-    @media all and (min-width: 768px){
-        height: 20vh;
-        width: 40vw;
-        margin-top: 5%;
-    }
-    @media all and (min-width: 1280px){
-        height: 30vh;
-        width: 26vw;
-        margin-top: 2%;
-    }
 }
 
 .image-video{
     cursor: pointer;
-    height: 18vh;
-    width: 38vw;
+    width: 70vw;
     @media all and (min-width: 768px){
-        height: 20vh;
-        width: 40vw;
+        width: 60vw;
+        height: 30vh;
     }
     @media all and (min-width: 1280px){
-        height: 30vh;
-        width: 26vw;
+        width: 25vw;
     }
-}
-
-.image-video:hover{
-    
 }
 
