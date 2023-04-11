@@ -1,60 +1,49 @@
 .photo-container{
+    background-image: url(https://cdn.wallpapersafari.com/36/49/R1drnD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 6vw;
-    width: 100vw;
-    height: 104vh;
-    margin-top: 0%;
+    align-items: center;
+    height: 250vh;
+    gap: 30px;
     @media all and (min-width: 768px){
-        margin-top: 0%;
-        height: 117vh;
+        height: 350vh;
+        gap: 70px;
     }
     @media all and (min-width: 1280px){
-        gap: 5vh; 
-        margin-top: 0%;  
-        height: 83vh;
-    }
-}
-
-.photo-listing{
-    margin-top: 5%;
-    @media all and (min-width: 768px){
-        margin-top: 5%;
-    }
-    @media all and (min-width: 1280px){
-        margin-top: 2%;  
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 120vh; 
     }
 }
 
 .photo-video{
-    cursor: pointer;
-    width: 30vw;
-    @media all and (min-width: 768px){
-        width: 30vw;
-    }
+    width: 50vw;
     @media all and (min-width: 1280px){
-        width: 19vw;
-        margin-top: 2%;
-        object-fit: cover;
+        width: 20vw;
     }
 }
 
 .date{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     background: rgba(255, 255, 255, 0.3);
-    margin-top: -15.5%;
+    margin-top: -25%;
     position: absolute;
-    width: 30vw;
+    width: 50vw;
     @media all and (min-width: 768px){
-        font-size: 18px;
+        font-size: 25px;
     }
     @media all and (min-width: 1280px){
         font-size: 18px;
-        margin-top: -9.5%;
-        width: 19vw;
+        margin-top: -10%;
+        width: 20vw;
     }
 }
+
+
+
