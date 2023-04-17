@@ -1,14 +1,16 @@
 .music{
-    background-color: black;
+    background-image: url(https://elements-video-cover-images-0.imgix.net/files/f33c8e81-7996-4895-906d-f59516250a18/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=9e0632d68dfd7101c7ab25fda645bd27);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 10%;
     height: 78vh;
     @media all and (min-width: 768px){
         padding-top: 8%;
-        height: 82vh;
+        height: 95vh;
     }
     @media all and (min-width: 1280px){
         padding-top: 5%;
-        height: 72vh;
+        height: 70vh;
     }
 }
 
@@ -27,46 +29,106 @@
 }
 
 .cd-container{
-    width: 100vw;
-    gap: 60px;
     margin-top: 10%;
+    height: 55vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 50px;
     @media all and (min-width: 768px){
         margin-top: 8%;
-        gap: 60px;
+        gap: 95px;
+        height: 76vh;
     }
     @media all and (min-width: 1280px){
-        margin-top: 3%;
         flex-direction: row;
-        gap: 140px;
+        gap: 95px;
+        height: 32vh;
+        margin-top: 4%;
     }
 }
 
-.cd-gasoline{
-    cursor: pointer;
-    width: 60vw;
+.cd-contain{
+    height: 24.5vh;
+    display: flex;
+    justify-content: center;   
     @media all and (min-width: 768px){
-        width: 46vw;
+        height: 32vh;
+    }
+}
+
+.cd{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    width: 40vw;
+}
+
+.cd-gasoline{
+    cursor: pointer; 
+    width: 40vw;
+    margin-left: 90%;
+    @media all and (min-width: 768px){
+        width: 33vw;
     }
     @media all and (min-width: 1280px){
-        width: 25vw;
+        width: 16vw;
+        margin-left: 74%;
     }
 }
 
 .cd-attitude{
-    cursor: pointer;
-    width: 60vw;
+    cursor: pointer; 
+    width: 40vw;
+    margin-left: 90%;
     @media all and (min-width: 768px){
-        width: 46vw;
+        width: 33vw;
     }
     @media all and (min-width: 1280px){
-        width: 25vw;
+        width: 16vw;
+        margin-left: 44%;
     }
 }
 
+.cd-gasoline:hover, .cd-attitude:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: rotateZ(360deg);
+}
 
+.album-gasoline{
+    cursor: pointer;
+    width: 48vw;
+    height: 24.6vh;
+    position: absolute;
+    left: 20%;
+    @media all and (min-width: 768px){
+        width: 42vw;
+        height: 30vh;
+        left: 25%;
+    }
+    @media all and (min-width: 1280px){
+        width: 20vw;
+        height: 32vh;
+        left: 15%;
+    }
+}
+
+.album-attitude{
+    cursor: pointer;
+    width: 48vw;
+    height: 24.6vh;
+    position: absolute;
+    left: 20%;
+    @media all and (min-width: 768px){
+        width: 42vw;
+        height: 30vh;
+        left: 25%;
+    }
+    @media all and (min-width: 1280px){
+        width: 20vw;
+        height: 32vh;
+        left: 55%;
+    }
+}
 
 
