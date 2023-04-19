@@ -1,4 +1,7 @@
 .attitude-container{
+    background-image: url("https://elements-video-cover-images-0.imgix.net/files/f33c8e81-7996-4895-906d-f59516250a18/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=9e0632d68dfd7101c7ab25fda645bd27");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +16,12 @@
     }
 }
 
+.attitude{
+    height: 89vh;
+    width: 60vw;
+}
+
+/*
 .attitude{
     width: 50vw;
     @media all and (min-width: 1280px){
@@ -120,3 +129,4 @@
 .play-spotify:hover{
     color: #1ad763;
 }
+*/
