@@ -2,6 +2,7 @@
     background-image: url("https://elements-video-cover-images-0.imgix.net/files/f33c8e81-7996-4895-906d-f59516250a18/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=9e0632d68dfd7101c7ab25fda645bd27");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding-top: 10%;
     height: 78vh;
     @media all and (min-width: 768px){
@@ -66,7 +67,7 @@
 .cd-gasoline{
     cursor: pointer; 
     width: 40vw;
-    margin-left: 90%;
+    margin-left: 30%;
     @media all and (min-width: 768px){
         width: 33vw;
     }
@@ -79,9 +80,10 @@
 .cd-attitude{
     cursor: pointer; 
     width: 40vw;
-    margin-left: 90%;
+    margin-left: 30%;
     @media all and (min-width: 768px){
         width: 33vw;
+        margin-left: 35%;
     }
     @media all and (min-width: 1280px){
         width: 16vw;
@@ -92,7 +94,10 @@
 .cd-gasoline:hover, .cd-attitude:hover{
     cursor: pointer;
     transition:  800ms ease-in;
-    transform: translate(80px, 0px) rotate(360deg);
+    transform: translate(40px, 0px) rotate(360deg);
+    @media all and (min-width: 768px){
+        transform: translate(80px, 0px) rotate(360deg);
+    }
 }
 
 .album-gasoline{

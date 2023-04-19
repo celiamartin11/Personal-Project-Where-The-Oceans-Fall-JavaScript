@@ -1,0 +1,32 @@
+.date-container{
+    background-image: url(https://cdn.wallpapersafari.com/36/49/R1drnD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 175vh;
+    @media all and (min-width: 768px){
+        height: 340vh;
+    }
+    @media all and (min-width: 1280px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 90vh; 
+    }
+}
+
+.date-contain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    @media all and (min-width: 768px){
+        gap: 70px;
+    }
+    @media all and (min-width: 768px){
+        gap: 55px;
+    }
+}

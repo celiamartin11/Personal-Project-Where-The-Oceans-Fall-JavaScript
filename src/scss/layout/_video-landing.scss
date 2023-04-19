@@ -1,5 +1,8 @@
 .video{
-    background-color: rgb(92, 79, 79);
+    background-image: url("https://elements-video-cover-images-0.imgix.net/files/f33c8e81-7996-4895-906d-f59516250a18/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=9e0632d68dfd7101c7ab25fda645bd27");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 10%;
     @media all and (min-width: 768px){
         padding-top: 8%;
@@ -39,6 +42,7 @@
 }
 
 .button-video{
+    cursor: pointer;
     background-color: rgb(86, 9, 9);
     border: rgb(86, 9, 9);
     color: white;
